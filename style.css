@@ -117,7 +117,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -600,8 +599,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -701,7 +699,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    font-size: 1.3em;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -741,11 +740,14 @@ h4 {
 
 .tc-white {
     font-size: 1.2em;
-    color: #F3976C!important;
+    color: #FFB997!important;
 }
 
+footer a{
+    color: black;
+}
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #AF5023;
     color: #FFFFFF!important;
 }
 
