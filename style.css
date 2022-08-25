@@ -851,7 +851,11 @@ footer a{
         padding: 0 20px;
     }
 }
-
+.center1{
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+}
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
