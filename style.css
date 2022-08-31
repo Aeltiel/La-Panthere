@@ -705,6 +705,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 270px;
+    height: 270px;
 }
 
 .portfolio-row {
@@ -805,6 +807,9 @@ footer a{
         padding-left: 0;
         padding-right: 0;
     }
+    .portfolio-thumb{
+        width: 100%;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -814,17 +819,27 @@ footer a{
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .portfolio-thumb{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    .portfolio-thumb{
+        width: 100%;
+    }
+    
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px){
     .b-parallax {
         background-attachment: scroll;
+    }
+    .portfolio-thumb{
+        width: 100%;
     }
 }
 
@@ -849,6 +864,9 @@ footer a{
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
+    }
+    .portfolio-thumb{
+        width: 100%;
     }
 }
 .center1{
@@ -990,6 +1008,9 @@ footer a{
         width: 180px;
         height: 320px;
     }
+    .portfolio-thumb{
+        width: 100%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -997,11 +1018,17 @@ footer a{
         padding-left: 0;
         padding-right: 0;
     }
+    .portfolio-thumb{
+        width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .portfolio-thumb{
+        width: 100%;
     }
 }
 @media (min-width: 768px) {
@@ -1041,6 +1068,9 @@ footer a{
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+    .portfolio-thumb{
+        width: 100%;
     }
 }
 /* #endregion média queries*/
